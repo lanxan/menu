@@ -1,7 +1,12 @@
 # menu
 create the menu fast by jquery-plugin
 
-<h4> build menu </h4>
+<h3> Installation </h3>
+include script *after the jQuery library (unless you are packaging scripts somehow else):
+```    
+<script src="/path/to/jquery.menu.js"></script>
+```
+<h3> build menu </h3>
 The menu has defined three menu type
 * topBar
 * subBar
@@ -9,20 +14,20 @@ The menu has defined three menu type
 
 First, you need to select a block to be the bar area, and defind the object topBar, this is a sample example.
 
-`var bar = topBar : {
-    Home : {
-    a : 'a.html'
-  },
-  Document : {
-    a : 'd.html'
-  },
-  About : {
-    a : 'A.html'
-  }
-}`
+    var bar = topBar : {
+        Home : {
+            a : 'a.html'
+        },
+        Document : {
+            a : 'd.html'
+        },
+        About : {
+            a : 'A.html'
+        }
+    }
 
 And use menu method to inject.
 
-`$('#menu').menu(bar)`
+    $('#menu').menu(bar)
 
 ### Keeping update
