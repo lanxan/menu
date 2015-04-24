@@ -1,12 +1,12 @@
 # menu
 create the menu fast by jquery-plugin
 
-<h3> Installation </h3>
+### Installation 
 include script *after the jQuery library (unless you are packaging scripts somehow else):
 ```    
 <script src="/path/to/jquery.menu.js"></script>
 ```
-<h3> build menu </h3>
+### build menu
 The menu has defined three menu type
 * topBar
 * subBar
